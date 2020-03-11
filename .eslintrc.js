@@ -39,8 +39,10 @@ module.exports = {
         'max-depth': ['warn', 4],
         'max-statements': ['warn', 20],
         'linebreak-style': ['warn', 'unix'],
+        'class-methods-use-this': 'off',
         'comma-style': ['warn', 'last'],
         'no-mixed-spaces-and-tabs': ['warn'],
+        'no-prototype-builtins': 'off',
 
         'no-return-assign': [
             'error',
@@ -111,6 +113,7 @@ module.exports = {
                 allowTemplateLiterals: true
             }
         ],
+        'import/prefer-default-export': 'off',
         'prettier/prettier': [
             'error',
             {
