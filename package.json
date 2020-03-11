@@ -1,0 +1,57 @@
+{
+    "name": "@hckrnews/eslint-config",
+    "version": "0.1.0",
+    "description": "ESLint and Prettier Config from hckr.news",
+    "keywords": [
+        "javascript",
+        "ecmascript",
+        "eslint",
+        "lint",
+        "config",
+        "prettier"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hckrnews/eslint-config-hckrnews"
+    },
+    "author": {
+        "name": "Pieter Wigboldus",
+        "url": "https://hckr.news/"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@vue/cli-plugin-eslint": "^4.2.3",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-html": "^6.0.0",
+        "eslint-plugin-import": "^2.18.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.0",
+        "eslint-plugin-vue": "^6.2.2",
+        "prettier": "^1.16.4"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-eslint": "^4.2.3",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-html": "^6.0.0",
+        "eslint-plugin-import": "^2.18.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.0",
+        "eslint-plugin-vue": "^6.2.2",
+        "prettier": "^1.16.4"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix"
+    }
+}
