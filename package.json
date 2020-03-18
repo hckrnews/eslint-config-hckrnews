@@ -1,6 +1,6 @@
 {
     "name": "@hckrnews/eslint-config",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "ESLint and Prettier Config from hckr.news",
     "keywords": [
         "javascript",
@@ -24,7 +24,7 @@
         "@vue/cli-plugin-eslint": "^4.2.3",
         "babel-eslint": "^10.1.0",
         "eslint": "^6.1.0",
-        "eslint-config-airbnb": "^18.0.0",
+        "eslint-config-airbnb-base": "^14.1.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-html": "^6.0.0",
         "eslint-plugin-import": "^2.18.0",
@@ -39,7 +39,7 @@
         "@vue/cli-plugin-eslint": "^4.2.3",
         "babel-eslint": "^10.1.0",
         "eslint": "^6.1.0",
-        "eslint-config-airbnb": "^18.0.0",
+        "eslint-config-airbnb-base": "^14.1.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-html": "^6.0.0",
         "eslint-plugin-import": "^2.18.0",
