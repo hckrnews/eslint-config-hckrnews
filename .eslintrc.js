@@ -56,10 +56,6 @@ module.exports = {
         ],
         'no-unused-vars': [
             'error',
-            {
-                ignoreSiblings: true,
-                argsIgnorePattern: 'res|next|^err'
-            }
         ],
         'prefer-const': [
             'error',
