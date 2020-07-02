@@ -51,7 +51,13 @@ module.exports = {
             'LabeledStatement',
             'WithStatement',
         ],
-        'no-unused-vars': ['error'],
+        'no-unused-vars': [
+            'error',
+            {
+                ignoreRestSiblings: true,
+                argsIgnorePattern: 'res|next|^err',
+            },
+        ],
         'prefer-const': [
             'error',
             {
