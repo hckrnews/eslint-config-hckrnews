@@ -1,6 +1,6 @@
 module.exports = {
-    extends: ['plugin:vue/recommended', 'airbnb-base', 'prettier'],
-    parser: 'vue-eslint-parser',
+    extends: ['airbnb-base', 'prettier'],
+    parser: 'babel-eslint',
     parserOptions: {
         parser: 'babel-eslint',
         ecmaVersion: 2020,
@@ -110,19 +110,6 @@ module.exports = {
             },
         ],
         'vars-on-top': 'error',
-        'vue/max-attributes-per-line': 'error',
-        'vue/require-default-prop': 'error',
-        'vue/singleline-html-element-content-newline': 'error',
-        'vue/html-indent': [
-            'error',
-            4,
-            {
-                attribute: 1,
-                closeBracket: 0,
-                alignAttributesVertically: false,
-                ignores: [],
-            },
-        ],
         'valid-jsdoc': [
             'error',
             {
